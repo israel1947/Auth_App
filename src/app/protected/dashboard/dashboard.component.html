@@ -1,0 +1,13 @@
+<h1>Dashboard</h1>
+<hr>
+
+<p>
+    Esta página solo es visible si estas autenticado desde el Backend
+</p>
+
+<h4>User info</h4>
+<pre>{{usuario | json}}</pre>
+
+
+<button class="btn btn-danger" 
+        (click)="logout()">Logout</button>
